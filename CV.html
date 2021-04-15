@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>CV_Vita_Korendovych</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="UTF-8">
+<title>CV_Vita_Korendovych</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <nav class="nav_b">   
-     <ul class="bar">
-      <li id="icon"> <a href= "#About">  <span class="material-icons"> account_circle </span> </a> </li>  
-      <li id="icon"> <a href= "#Educacion"> <span class="material-icons"> school </span> </a></li> 
-      <li id="icon"> <a href= "#HS"> <span class="material-icons"> desktop_mac </span> </a> </li>
-     </ul>
-   </nav>
+
+	
+		 
   <style>
 @charset "UTF-8";
 
@@ -676,36 +673,43 @@ footer {margin-bottom: 0%;
      margin-top: 2%;
      margin-bottom: 1%;}     
 }     
+  </style>  
+		
+	
+</head>
+<body>
+<nav id="navbar">   
+     <ul class="bar">
+      <li id="icon"> <a href= "#Welcome">  <span class="material-icons"> account_circle </span> </a> </li>  
+      <li id="icon"> <a href= "#Educacion"> <span class="material-icons"> school </span> </a></li> 
+      <li id="icon"> <a href= "#HS"> <span class="material-icons"> desktop_mac </span> </a> </li>
+     </ul>
+</nav>
 
-
-  </style>    
- </head>
-
-
- <body>
-
-	 <section id="About">
+<section id="Welcome">
         <article id="art1">
 		  <div id="di1">
 			</br>
-			<h2 id="v">Vita  Korendovych</h2>
-			<h3>desarrolladora de apps</h3>
-			<h4>Sobre mí</h4>	
-			<p id="hist"> <i>
+			  <h1 id="v">Vita  Korendovych</h1>
+			  <h3>desarrolladora de apps</h3>
+		  	<h4>Sobre mí</h4>	
+		   	<p id="hist"> <i>
                “Soy estudiante de Formación Profesional Grado Superior en Desarrollo Aplicaciones Multiplataforma. 
                 Me encantaría aplicar mis conocimientos para convertirme en una programadora profesional. 
                 Soy una persona orientada a resultados con ganas de aprender e interés por el desarrollo profesional.
-                Que adapta fácil y rápidamente a los cambios y es  capaz trabajar en el equipo.” </i></p>
+                Que adapta fácil y rápidamente a los cambios y es  capaz trabajar en el equipo.” </i></p>
 		  </div> 
     </article>	
-  
+  </section>
+  <section id="Projects">
     <article id="art2">
       <div id="div2">
-      <h4>Contactos</h4>
-      <ul>
+      <h4 id="c">Contactos</h4>
+      <ul id="lis">
           <li id="con"><span class="material-icons"> call </span> &nbsp;&nbsp; + 34-642-025-679 </li> 
           <li id="con"> <span class="material-icons"> alternate_email </span>&nbsp;&nbsp; korendovych.vita@gmail.com </li>
-          <li id="con"><span class="material-icons"> code</span> <a href="https://codepen.io/Vita_Korendovych" target="_blank" id="conl"> &nbsp;&nbsp;https://Vita_Korendovych</a> </li>
+          <li id="con"><span class="material-icons"> code</span> <a href="https://codepen.io/Vita_Korendovych" target="_blank" class="project-tile" id="conl"> &nbsp;&nbsp;CodePen</a> </li>
+          <li id="con"><span class="material-icons"> person_add_alt_1</span> <a href="https://github.com/Korendovych" target="_blank" class="project-tile" id="conl"> &nbsp;&nbsp;GitHub</a> </li>
           <li id="con"> <span class="material-icons"> location_on </span> &nbsp;&nbsp; Madrid </li>
       </ul> 
       </div>   
@@ -717,36 +721,38 @@ footer {margin-bottom: 0%;
   <section id="Educacion">
      <article id="art3">
         <div id="div3">
-            <h4>Formación académica</h4>
-            <ul>
-                <li id="for"> <b>Formación Profesional  Grado Superior</b> &nbsp;&nbsp; | &nbsp;&nbsp;          Desarrollo Aplicaciones Multiplataforma</li> 
+            <h4 id="form">Formación académica</h4>
+            <ul id="academ">
+                <li id="for"> <b>Formación Profesional  Grado Superior</b> </li> 
+                <li id="for"> Desarrollo Aplicaciones Multiplataforma </li>
                 <li id="for1"> Los Naranjos, Fuenlabrada</li>  
                 <li id="for1"> <i>2020-2022</i></li> 
-                </br> </br>
-                <li id="for"> <b>Diploma de Audiovisual</b>             &nbsp;&nbsp;                |                            Cámara, Iluminación y Montaje </li> 
+                <li id="for"> <b>Diploma de Audiovisual</b></li> 
+                <li id="for"> Cámara, Iluminación y Montaje </li>
                 <li id="for1"> CEV, Madrid</li>  
                 <li id="for1"> <i>2017-2018</i></li>
-                </br> </br>
-                <li id="for"> <b>Grado Universitario en Filología</b>             &nbsp;&nbsp; | &nbsp;&nbsp;                                   Filología Clásica y Inglés</li> 
+                <li id="for"> <b>Grado Universitario en Filología</b></li> 
+                <li id="for"> Filología Clásica y Inglés</li>
                 <li id="for1"> UNIF, Ucrania</li>  
                 <li id="for1"> <i>2011-2015</i></li>
             </ul> 
         </div>
             
         <div id="div4">
-              <h4>Formación complementaria</h4> 
-              <ul>
-                  <li id="for"> <b>Curso de WordPress</b> &nbsp;&nbsp; | &nbsp;&nbsp; 60h</b></li> 
+              <h4 id="form">Formación complementaria</h4> 
+              <ul id="comp">
+                  <li id="for"> <b>Curso de WordPress</b></b></li> 
+                  <li id="for"> 60h</li>
                   <li id="for1"> ASPASIA, Madrid</li>  
                   <li id="for1"> <i>2019-2020</i></li> 
-                  </br> </br>
-                  <li id="for"> <b>Curso de JavaScript</b> &nbsp;&nbsp; | &nbsp;&nbsp; 40h </li> 
+                  <li id="for"> <b>Curso de JavaScript</b></li> 
+                  <li id="for"> 40h</li>
                   <li id="for1"> ASPASIA, Madrid</li>  
                   <li id="for1"> <i>2019-2020</i></li>
-                  </br> </br>
-                  <li id="for"> <b>Curso de Diseño Web</b> &nbsp;&nbsp; | &nbsp;&nbsp; 300h</li> 
+                  <li id="for"> <b>Curso de Diseño Web</b></li> 
+                  <li id="for"> 300h</li>
                   <li id="for1"> FreeCodeCamp</li>  
-                  <li id="for1"> <i>2019-2020</i></li>
+                  <li id="for1"> <i>2020-2021</i></li>
               </ul> 
          </div>
       </article>    
@@ -756,7 +762,7 @@ footer {margin-bottom: 0%;
    <section id="HS">
      <article id="art5">
 	    <div id="div5">
-          <h4>Habilidades</h4> 
+          <h4 id="habil">Habilidades</h4> 
           <div id="dii1">
             <ul id="hab">
               <li id="len"> <b>Java</b> | </li>  
@@ -782,7 +788,7 @@ footer {margin-bottom: 0%;
        </div> 
 		  
        <div id="div6">
-          <h4>Languages</h4> 
+          <h4 id="habil">Languages</h4> 
           <div id="dii3">
              <ul id="hab">
                 <li id="len"> <b>Inglés</b> | </li>  
@@ -798,9 +804,9 @@ footer {margin-bottom: 0%;
 	         <ul id="hab">
                 <li id="len1"> <div id="e1"> </div>   <div id="e2"> </div>   <div id="e3"> </div>  <div id="e4"> </div>   <div id="e5"> </div>   <div id="e6"> </div>  <div id="e7"> </div>   <div id="e8"> </div></li> 
                 </br> </br>
-                <li id="len1"> <div id="e1"> </div>   <div id="e2"> </div>   <div id="e3"> </div>  <div id="e4"> </div> <div id="e5"> </div>   <div id="e6"> </div>  <div id="e7"> </div>   <div id="e8"> </div> <div id="e9"> </div>   <div id="e10"> </div></li> 
+                <li id="len1"> <div id="e1"> </div>   <div id="e2"> </div>   <div id="e3"> </div>  <div id="e4"> </div> <div id="e5"> </div>   <div id="e6"> </div>  <div id="e7"> </div>   <div id="e8"> </div> <div id="e9"> </div> </li> 
                 </br> </br>
-                <li id="len1"> <div id="e1"> </div>   <div id="e2"> </div>   <div id="e3"> </div>  <div id="e4"> </div>   <div id="e5"> </div>  <div id="e6"> </div>  <div id="e7"> </div>   <div id="e8"> </div> <div id="e9"> </div>   <div id="e10"> </div></li>
+                <li id="len1"> <div id="e1"> </div>   <div id="e2"> </div>   <div id="e3"> </div>  <div id="e4"> </div>   <div id="e5"> </div>  <div id="e6"> </div>  <div id="e7"> </div>   <div id="e8"> </div> <div id="e9"> </div> </li>
                 </br> </br>
                 <li id="len1"> <div id="e1"> </div>   <div id="e2"> </div>   <div id="e3"> </div>  <div id="e4"> </div>   <div id="e5"> </div>   <div id="e6"> </div>  <div id="e7"> </div>   <div id="e8"> </div></li> 
              </ul>   
@@ -809,7 +815,7 @@ footer {margin-bottom: 0%;
        </div>
        
        <div id="div7">
-          <h4>Herramientas web</h4> 
+          <h4 id="habil">Herramientas web</h4> 
           <div id="dii5">
              <ul id="hab">
                 <li id="len"> <b>Adobe Photoshop</b> | </li>  
@@ -821,6 +827,7 @@ footer {margin-bottom: 0%;
                 <li id="len"> <b>Final Cut Pro X</b> | </li>  
              </ul> 
           </div>
+
           <div id="dii6">
 	         <ul id="hab">
                 <li id="len1"> <div id="r1"> </div>   <div id="r2"> </div>   <div id="r3"> </div>  <div id="r4"> </div>   <div id="r5"> </div>   <div id="r6"> </div>  <div id="r7"> </div>   <div id="r8"> </div> <div id="r9"> </div></li> 
@@ -838,8 +845,7 @@ footer {margin-bottom: 0%;
   </section> 
 
   <footer>
-       <p id="f1"> korendovych.vita@gmail.com </p>
+       <p id="f1"><i><b>korendovych.vita@gmail.com</b></i></p>
   </footer>
-
- </body>    
+</body>
 </html>
